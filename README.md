@@ -1,6 +1,7 @@
 In acest proiect am simulat o aplicatie pentru gestionarea unui depozit. Scopul principal este organizarea produselor, angajatilor si clientilor, folosind concepte de programare orientata pe obiect.
 
-In cadrul aplicatiei exista mai multe clase principale, acestea reprezentand “pilonii” aplicatiei, urmand ca mai departe sa fie create pe baza lor alte entitati, care le mostenesc caracteristicile generale:
+In cadrul aplicatiei exista mai multe clase principale, urmand ca mai departe sa fie create pe baza lor alte entitati, care le mostenesc caracteristicile generale:
+
     - Depozit – clasa principala a proiectului, care contine informatiile generale, despre nume, adresa si capacitate maxima. 		De asemenea, aici vor fi gestionate toate functionalitatile, intrucat se pot accesa:
 		  - lista de produse (inventar)
 		  - lista de angajati
