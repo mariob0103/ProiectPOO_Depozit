@@ -21,6 +21,7 @@ In cadrul aplicatiei exista mai multe clase principale, acestea reprezentand “
 
 Am implementat, in principiu in Depozit.cpp, mai multe functionalitati, pe care le-am integrat si in meniul interactiv. De asemenea, le-am numerotat pe fiecare pentru a fi mai usor de urmarit implementarea propriu zisa in cod si in functie de “domeniul” de care se leaga; Ce se afla cu - pus langa idee este de fapt locul unde am definit functiile ajutatoare pentru realizarea task-ului. (Am notat doar acolo unde am facut o alta functie fata de getterele clasice)
 Astfel, functionalitatile sunt urmatoarele:
+
 	1.1 Calcul Taxe Import (Vama/UE) - Client + (ClientNonUE + ClientUE) 
 	1.2 Valoarea Totala a Inventarului - Produs + (ProdusFragil)
 	1.3 Simulator de Salarii (De mentionat aici ca fiecare angajat are un salariu diferit, in functie de munca pe care o face. La Picker, in functie de “rata_eroare” ii mai scade din salariu, Gestionarul are mai mult decat Picker oricum si ii poate creste in functie de “nr_comenz”i, iar la Manipulant am cel mai mic salariu si este mereu constant)  - Angajat + (Gestionar + Picker)
@@ -41,13 +42,11 @@ Ultima parte este meniul interactiv. Acesta arata in felul urmator:
 
 Meniu 
 1. Adaugare produs 
-	 Adaugare produs 
 	1. Produs alimentar
 	2. Produs non-food
 	3. Produs perisabil
 	4. Produs fragil
 2. Afisare produse filtrate 
- 	Produse filtrate 
 	1. Produse BIO
 	2. Produse cu alergii
 	3. Raport produse perisabile
@@ -57,7 +56,6 @@ Meniu
 5. Adaugare client 
 6. Lista de fidelitate 
 7. Detalii administrative 
- 	Detalii administrative 
 	1. Total taxe import
 	2. Valoare totala inventar
 	3. Total salarii angajati
